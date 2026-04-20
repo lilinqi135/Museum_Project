@@ -1,0 +1,24 @@
+.idea/
+.vscode/
+.cursor/
+logs/
+*.log
+*.tmp
+*.swp
+*.swo
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Java / Node build outputs
+**/target/
+**/node_modules/
+**/dist/
+**/out/
+
+# Local environment and secret files
+**/.env.local
+**/.env.*.local
+**/application-local.yml
+**/application-*.local.yml
+**/application-local.properties
